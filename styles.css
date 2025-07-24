@@ -1,0 +1,26 @@
+[id="T3057851291"].page {
+	min-height: var(--viewport-height);
+}
+
+[id="T3057851291"] .backdrop {
+	position: relative;
+	width: 50%;
+	order: 0;
+}
+
+.mobile [id="T3057851291"] .backdrop {
+	order: 0;
+	height: var(--split-backdrop-height);
+	width: 100%;
+}
+
+.mobile [id="T3057851291"] .page-layout {
+	max-width: 100%;
+	min-width: 100%;
+	min-height: var(--split-content-height);
+}
+
+[id="T3057851291"] .page-content {
+	align-items: flex-start;
+	width: 100%;
+}
