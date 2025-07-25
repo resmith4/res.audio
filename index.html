@@ -16,7 +16,7 @@
         body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             background-color: #1a1a1a;
-            color: #f2f2f2;
+            color: #ffffff;
             line-height: 1.6;
             font-size: 16px;
             font-weight: 400;
@@ -46,7 +46,7 @@
             font-weight: 300;
         }
         
-        .-container {
+        .video-container {
             position: relative;
             width: 100%;
             max-width: 100%;
@@ -59,7 +59,16 @@
             padding-bottom: 56.25%; /* 16:9 aspect ratio */
         }
         
-        .-description {
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+        .video-description {
             font-style: italic;
             color: #aaaaaa;
             margin-top: 20px;
@@ -120,7 +129,7 @@
         
         .about-text em {
             font-style: italic;
-            color: #f2f2f2;
+            color: #ffffff;
         }
         
         .offerings-section {
@@ -146,13 +155,13 @@
             content: "✴";
             position: absolute;
             left: 0;
-            color: #f2f2f2;
+            color: #ffffff;
             font-weight: 600;
         }
         
         .contact-button {
             display: inline-block;
-            background-color: #f2f2f2;
+            background-color: #ffffff;
             color: #1a1a1a;
             padding: 16px 32px;
             text-decoration: none;
@@ -185,7 +194,7 @@
                 margin-bottom: 40px;
             }
             
-            .-container {
+            .video-container {
                 margin: 40px 0;
             }
             
